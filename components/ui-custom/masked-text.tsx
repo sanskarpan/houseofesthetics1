@@ -11,7 +11,7 @@ interface MaskedTextProps {
 
 export default function MaskedText({ 
   text, 
-  tag = 'div', 
+  tag = 'p', 
   className = '', 
   delay = 0 
 }: MaskedTextProps) {
